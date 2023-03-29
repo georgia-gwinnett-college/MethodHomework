@@ -1,5 +1,13 @@
+/**
+ * class: NonStart
+ *@author: Jah St.Aimee
+ * @date: March 28, 2023
+ * @version: 1.0
+ * @course: ITEC 2140 - 05 Spring 2023
+ * description:  The program should reverse a given string, double, and print each value twice.
+ */
 import java.util.Scanner;
-public class Main6 {
+public class MyAssignment {
     private Scanner input;
 
     public String nonStart() {
@@ -15,7 +23,7 @@ public class Main6 {
         return result;
     }
         public static void main (String[]args) {
-            Main6 instance = new Main6();
+            MyAssignment instance = new MyAssignment();
             instance.input = new Scanner(System.in);
             String output = instance.nonStart();
             System.out.println(output);
